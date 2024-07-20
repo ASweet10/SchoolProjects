@@ -1,5 +1,5 @@
 # Stock Dashboard
 ### Python, Dash, Plotly, HTML/CSS
 ### AlphaVantage, NewsAPI, and FinnHub APIs
-![Screenshot](SchoolRepos/stock-dashboard-1.png)
-![Screenshot](SchoolRepos/stock-dashboard-2.png)
+![/stock-dashboard-1.png](https://github.com/ASweet10/SchoolProjects/blob/main/StockDashboard/stock-dashboard-1.png)
+![/stock-dashboard-2.png](https://github.com/ASweet10/SchoolProjects/blob/main/StockDashboard/stock-dashboard-2.png)
