@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="buttons_container_test">
+        <div class="buttons_container_left">
+
+          <label for="size">Size</label>
+          <input type="range" id="size" step="5" min="10" max="80" value="45"/>
+  
+          <label for="size">Speed</label>
+          <input type="range" id="speed" step="5" in="1" max="120" value="50"/>
+  
+          <button id="randomize_array_button">Randomize</button>
+        </div>
+  
+        <div class="buttons_container_right">
+          <button id="bubble_sort_button">Bubble</button>
+          <button id="quick_sort_button">Quick</button>
+          <button id="insertion_sort_button">Insertion</button>
+          <button id="heap_sort_button">Heap</button>
+          <button id="merge_sort_button">Merge</button>
+  
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="bars_container" id="bars_container"></div>
+      </div>
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/merge-sort.js"></script>
+    <script src="scripts/bubble-sort.js"></script>
+    <script src="scripts/quick-sort.js"></script>
+    <script src="scripts/heap-sort.js"></script>
+    <script src="scripts/insertion-sort.js"></script>
+  </body>
+</html>
