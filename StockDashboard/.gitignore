@@ -20,7 +20,6 @@ node_modules
 .DS_Store
 *.pem
 *.pyc
-*.yaml
 
 # debug
 npm-debug.log*
