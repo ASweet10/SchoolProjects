@@ -1,8 +1,3 @@
-# Locally: Run app with `python sip_dashboard.py`
-# http://127.0.0.1:8050/
-
-# https://www.youtube.com/watch?v=XWJBJoV5yww    Render.com deployment guide
-
 import os
 import pandas as pd
 import dash
@@ -208,12 +203,10 @@ def return_dashboard(n_clicks, time_value, ticker):
 
 
     # Main price chart
-    # Code common to all time periods:
     finnhub_client = finnhub.Client(api_key=FINNHUB_KEY)
     now = datetime.now()  # datetime object, current date/time
     now_unix = int(now.timestamp())
 
-    # Time periods
     if time_value == '5D':
         time_unix = now - relativedelta(days=5)
     elif time_value == '1mo':
